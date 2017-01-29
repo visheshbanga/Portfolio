@@ -1,0 +1,46 @@
+img,embed,object,video{
+    max-width: 100%;
+}
+nav a, button{
+    min-width: 48px;
+    min-height: 48px;
+}
+body {
+    font-family: 'Lato', sans-serif;
+    color: #747704;
+    font-weight: 300;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h3 {
+    text-transform: uppercase;
+    font-weight: 300px;
+}
+
+/*   Header   */
+
+#head {
+    border-bottom: 3px solid #bcbbbb;
+}/*
+.header-inner {
+    border-bottom: 3px solid #bcbbbb;
+}*/
+.text-thin {
+    font-weight: 100;
+}
+.text-muted {
+    color: #bcbbbb;
+}
+.title-super {
+    font-size: 60px;
+}
+.title-logo {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/*  Transition  */
+.speed {
+    transition: 0.3s;
+}
