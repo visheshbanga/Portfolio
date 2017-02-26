@@ -1,12 +1,16 @@
-img,embed,object,video{
+img,
+embed,
+object,
+video{
     max-width: 100%;
 }
-nav a, button{
+nav a,
+button{
     min-width: 48px;
     min-height: 48px;
 }
 body {
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     color: #747704;
     font-weight: 300;
     display: flex;
@@ -20,12 +24,16 @@ h3 {
 
 /*   Header   */
 
-#head {
+.head-div {
     border-bottom: 3px solid #bcbbbb;
 }/*
 .header-inner {
     border-bottom: 3px solid #bcbbbb;
 }*/
+
+.img-top {
+    padding-top: 20px;
+}
 .text-thin {
     font-weight: 100;
 }
