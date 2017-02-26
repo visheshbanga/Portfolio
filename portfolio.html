@@ -7,8 +7,6 @@
     <meta name="vieport" content="width=device-width, initial-scale=1">
     <title>Kitten Portfolio</title>
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
   </head>
@@ -16,7 +14,7 @@
   <body>
     <div class="speed container">
 
-      <div class="row" id="head">
+      <div class="row head-div">
         <header>
             <div class="col-md-6 col-xs-5">
                 <img class="title-logo img-responsive" src="images/udacity-logo.jpg" alt="udacity-logo">
@@ -30,7 +28,7 @@
 
       <div class="row">
         <div class="col-md-12 col-xs-12">
-          <img style="padding-top: 20px" class="img-responsive" src="images/1140w-image.jpg">
+          <img class="img-responsive img-top" src="images/1140w-image.jpg">
         </div>
       </div>
 
@@ -39,12 +37,13 @@
           <h2 class = text-muted>Featured Work</h2>
         </div>
       </div>
-
+</div>
+<div class="container">
       <div class="row text-center">
         <div class="col-md-4 col-xs-6">
           <img class="img-responsive" src="images/350w-image.jpg" data-toggle="modal" data-target="#project1">
           <h3>Appify</h3>
-          <p"><a href="http://github.com">Link to project</a></p>
+          <p><a href="http://github.com">Link to project</a><p>
         </div>
 
         <div class="col-md-4 col-xs-6">
@@ -52,8 +51,8 @@
           <h3>Sunflower</h3>
           <p><a href="http://github.com">Link to project</a></p>
         </div>
-        <div class="col-md-4 col-xs-6">
-          <img class="img-responsive" src="images/350w-image.jpg"">
+        <div class="col-md-4 col-xs-6" align="left">
+          <img class="img-responsive" src="images/350w-image.jpg">
           <h3>Bokeh</h3>
           <p> <a href="http://github.com">Link to project</a> </p>
         </div>
@@ -77,5 +76,7 @@
             </div>
         </div>
     </div>
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
   </body>
 </html>
